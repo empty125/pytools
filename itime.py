@@ -192,9 +192,9 @@ def test_init_datetime():
     
     dt  = Datetime(2016, 11, 13, timezone="Asia/Shanghai")
     dt1 = Datetime(2016, 11, 13, timezone="Asia/Tokyo")
-    dt2 = Datetime(2016, 11, 13, 0, 0, 0, 0 timezone="UTC")
-    dt3 = Datetime(2016, 11, 13, 0, 0, 0, 0 timezone="US/Hawaii")
-    dt4 = Datetime(2016, 11, 13, 0, 0, 0, 0 timezone="America/Los_Angeles")
+    dt2 = Datetime(2016, 11, 13, 0, 0, 0, 0, timezone="UTC")
+    dt3 = Datetime(2016, 11, 13, 0, 0, 0, 0, timezone="US/Hawaii")
+    dt4 = Datetime(2016, 11, 13, 0, 0, 0, 0, timezone="America/Los_Angeles")
     print(dt)
     print(dt1)
     print(dt2)
